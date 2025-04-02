@@ -7,4 +7,7 @@
 6) create 3 containers in Data Storage of carjishadatalake with the names bronze, silver and gold
 7) Open carsales database, using query editor create table (source_cars_data)
 8) Open carjishsdf > Launch Studio > click on Auther tab > Create new pipeline > give a name (source_prep)
-9) To connect to hithub source data--click on managed data > click on +New > click on http connection > Continue > give a name(ls_github)
+9) To connect to hithub source data--click on managed data > click on +New > click on http connection > Continue > give a name(ls_github) > Enter the base url (https://raw.githubusercontent.com/) > Enter the Authentication connection to Anonymous > Test the connection and create
+10) Create another linked service to connect to Azure sql database > select the azure subscription, server name, database > Enter username, password > Test Connection > create
+11) Go back to Author tab > drag Copy Data from activities > create a parameterized data set from Source > Source Data Set > New > http > csv > Name it (ds_git)
+12) Publish All from the Linked Services
