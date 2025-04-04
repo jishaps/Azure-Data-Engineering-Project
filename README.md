@@ -15,3 +15,6 @@
 14) create a new pipeline for incremental load in azure datafactory > Drag and drop 2 lookup activity (last_load and current_load) > For last_load go to settings select the source dataset and create a parameter for dynamically change the table name so go to data set and select ds_sqlDB > create parameter > add that in Settings
 15) Go back to LookUp > Uncheck first row only > Use Query (last_load look up pulls from watermark table and current_load pulls from source_cars_data) > Connect the 2 lookup's with Copy Data > create a query in the source > In Sink, create new link with Azure Data Lake Gen2
 16) Create a stored procedure activity and connect to Copy Data > Fill the details accordingly
+17) Debug
+18) Create Databricks > Pricing tier is premium for Unity catalog
+19) Get your entraID from Azure and use that to login to accounts.azuredatabricks.net > Make your gmail as an account admin > then you will be able to see the manage account at azure databricks
