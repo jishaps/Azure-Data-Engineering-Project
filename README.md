@@ -18,3 +18,11 @@
 17) Debug
 18) Create Databricks > Pricing tier is premium for Unity catalog
 19) Get your entraID from Azure and use that to login to accounts.azuredatabricks.net > Make your gmail as an account admin > then you will be able to see the manage account at azure databricks
+20) Go to manage account > delete the metastore created by databricks
+21) create a access connector for databricks
+22) create new IAM in datalake
+23) create a folder (unitymetastore) in datalake
+24) now go back to step 20 and complete the metastore creation by adding ADLS Gen2 path (unitymetastore@carjishadatalake.dfs.core.windows.net/) and add the access connector Id
+25) Add workspace to this connector
+26) Refresh your databricks workspace to see this unity catalog and create a compute
+27) Create external data from catalog to store/access data from Azure > Catalog > External Data > create Credentials using the access connection resource id > grant permissions > create 3 external locations for bronze,silver and gold
