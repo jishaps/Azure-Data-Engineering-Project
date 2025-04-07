@@ -26,3 +26,5 @@
 25) Add workspace to this connector
 26) Refresh your databricks workspace to see this unity catalog and create a compute
 27) Create external data from catalog to store/access data from Azure > Catalog > External Data > create Credentials using the access connection resource id > grant permissions > create 3 external locations for bronze,silver and gold
+28) Create a folder in workspace and a notebook (silver_notbook) inside that > Do the transformations.
+29) Create Gold notebook
