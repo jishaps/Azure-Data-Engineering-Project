@@ -1,4 +1,7 @@
 # Azure-Data-Engineering-Project
+<img width="1143" alt="Screenshot 2025-04-08 at 5 39 35 PM" src="https://github.com/user-attachments/assets/28160ed7-3412-432d-8ed8-2247e97a4bfb" />
+
+**Steps:**
 1) Create an azure account
 2) Create a resource group
 3) Create Storage Account(carjishadatalake) > click on microsoft storage account > Enter Storage Account Name & Redundancy = LRS (cheapest option) > Next page **check** Enable Hierarchical namespace (to create a datalake) > click on Review+Create > click on create
