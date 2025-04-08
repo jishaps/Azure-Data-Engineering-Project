@@ -28,5 +28,7 @@
 27) Create external data from catalog to store/access data from Azure > Catalog > External Data > create Credentials using the access connection resource id > grant permissions > create 3 external locations for bronze,silver and gold
 28) Create a folder in workspace and a notebook (silver_notbook) inside that > Do the transformations.
 29) Create Gold tables as follows
-30) <img width="612" alt="Screenshot 2025-04-08 at 11 55 31 AM" src="https://github.com/user-attachments/assets/097347a9-a263-47c2-925e-008dc2fdaa77" />
+ <img width="612" alt="Screenshot 2025-04-08 at 11 55 31 AM" src="https://github.com/user-attachments/assets/097347a9-a263-47c2-925e-008dc2fdaa77" />
+30) Create the workflow as follows<img width="777" alt="Screenshot 2025-04-08 at 3 12 01 PM" src="https://github.com/user-attachments/assets/9885254c-6340-429b-a478-1b53621aa9ee" />
+
 
