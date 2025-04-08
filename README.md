@@ -1,5 +1,6 @@
 # Azure-Data-Engineering-Project
-<img width="1143" alt="Screenshot 2025-04-08 at 5 39 35 PM" src="https://github.com/user-attachments/assets/28160ed7-3412-432d-8ed8-2247e97a4bfb" />
+<img width="1157" alt="Screenshot 2025-04-08 at 5 41 29 PM" src="https://github.com/user-attachments/assets/673950d7-6e7b-4b92-a4ba-53efe27ec343" />
+
 
 **Steps:**
 1) Create an azure account
